@@ -4,6 +4,8 @@ const { first } = require('./array');
 const { isNumber } = require('./number');
 const { isEven } = require('./number');
 
+const { complement } = require('./function');
+
 module.exports = {
   // Number
   isNumber,
@@ -12,4 +14,7 @@ module.exports = {
   // Array
   rest,
   first,
+
+  // Function
+  complement,
 };
