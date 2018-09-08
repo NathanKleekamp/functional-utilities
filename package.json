@@ -4,8 +4,11 @@
   "description": "My collection of functional utilities",
   "main": "index.js",
   "scripts": {
-    "test": "tape 'tests/**/*.spec.js"
+    "test": "tape '**/*.spec.js'"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "tape": "^4.9.1"
+  }
 }
