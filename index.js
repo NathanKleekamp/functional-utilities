@@ -1,6 +1,7 @@
 const {
   rest,
   first,
+  last,
 } = require('./array');
 const {
   isNumber,
@@ -21,6 +22,7 @@ module.exports = {
   // Array
   rest,
   first,
+  last,
 
   // Function
   complement,
