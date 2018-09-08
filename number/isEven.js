@@ -1,7 +1,10 @@
 const { isNumber } = require('./isNumber');
-const { isEven } = require('./isEven');
+
+const isEven = num => {
+  return isNumber(num) && num % 2 === 0;
+};
 
 module.exports = {
-  isNumber,
   isEven,
 };
+
