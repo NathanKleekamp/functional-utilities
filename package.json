@@ -1,0 +1,11 @@
+{
+  "name": "functional-utilities",
+  "version": "1.0.0",
+  "description": "My collection of functional utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape 'tests/**/*.spec.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
