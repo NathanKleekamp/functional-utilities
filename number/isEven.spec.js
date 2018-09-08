@@ -15,14 +15,3 @@ test('isEven returns appropriate boolean value when a number is passed', t => {
   t.end();
 });
 
-test('isEven returns false if a non-Number is passed', t => {
-  t.equal(isEven('0'), false, 'A string value is not even');
-  t.equal(isEven([]), false, 'A array is not even');
-  t.equal(isEven({}), false, 'An object is not even');
-  t.equal(isEven(true), false, 'True is not even');
-  t.equal(isEven(), false, 'Empty call to isEven returns false');
-  t.equal(isEven(null), false, 'null is not even');
-  t.equal(isEven(NaN), false, 'NaN is not even');
-  t.equal(isEven(Infinity), false, 'Infinity is not even');
-  t.end();
-});

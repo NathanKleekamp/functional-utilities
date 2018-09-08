@@ -1,8 +1,4 @@
-const isNumber = num => {
-  const isNumType = typeof num === 'number';
-  if (isNumType && isNaN(num)) return false;
-  return isNumType;
-};
+const isNumber = num => typeof num === 'number';
 
 module.exports = {
   isNumber,

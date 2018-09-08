@@ -10,7 +10,6 @@ test('isNumber returns appropriate boolean value', t => {
   t.equal(isNumber({}), false, 'An object is not a number');
   t.equal(isNumber(true), false, 'true is not a number');
   t.equal(isNumber(), false, 'No arguments returns false');
-  t.equal(isNumber(NaN), false, 'NaN is not a number');
   t.equal(isNumber(null), false, 'null is not a number');
   t.end();
 });
