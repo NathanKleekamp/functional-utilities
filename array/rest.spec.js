@@ -1,5 +1,5 @@
 const { test } = require('tape');
-const { rest } = require('./rest');
+const { rest } = require('../index');
 
 test('Rest returns an empty array when passed an empty array', (t) => {
   const testArray = [];
