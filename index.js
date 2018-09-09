@@ -9,21 +9,19 @@ const {
   isEven,
   isOdd,
 } = require('./number');
-
-const { complement } = require('./function');
+const {
+  complement,
+  compose,
+} = require('./function');
 
 module.exports = {
-  // Number
   isNumber,
   isNotNumber,
   isEven,
   isOdd,
-
-  // Array
   rest,
   first,
   last,
-
-  // Function
   complement,
+  compose,
 };
