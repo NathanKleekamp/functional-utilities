@@ -12,6 +12,7 @@ const {
 const {
   complement,
   compose,
+  identity,
 } = require('./function');
 
 module.exports = {
@@ -24,4 +25,5 @@ module.exports = {
   last,
   complement,
   compose,
+  identity,
 };
